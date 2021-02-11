@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand ps-4" href="index.html">Tiffany Weaver</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--  Container - Contact Me -->
+  <div class="container pe-4" id="contact-container">
+
+    <div class="row mt-5 pt-3 ps-3">
+      <div class="col-12">
+        <h1>Contact Me</h1>
+        <a href="https://www.linkedin.com/in/tiffany-weaver-4b23a51b8/" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://twitter.com/TiffanyndBeyond" target="_blank" class="fa fa-twitter"></a>
+
+        <hr>
+      </div>
+
+      <!-- Form -->
+      <form>
+        <div class="form-group mb-3">
+          <label for="name-input">Name</label>
+          <input type="text" class="form-control" id="name-input" placeholder="Name">
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="email-input">Email Address</label>
+          <input type="email" class="form-control" id="email-input" placeholder="Your Email">
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="message-input">Message:</label>
+          <textarea class="form-control" id="message-input" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary button-bg mb-3">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="row mt-5">
+    <div class="footer sticky-bottom py-2">
+      <h6>&#169; Copyright 2020</h6>
+    </div>
+  </div>
+
+</body>
+
+</html>

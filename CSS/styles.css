@@ -1,0 +1,79 @@
+/* ---------- All ---------- */
+body{
+    background-image:url("https://images.pexels.com/photos/2395249/pexels-photo-2395249.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+/* All - Nav bar and H1's */
+header, h1{
+    font-family: 'Dosis', sans-serif; 
+}
+
+/* All -Containers */
+.container{
+    background-color: #fff;
+    width: fit-content;
+}
+
+/* All -Paragraphs */
+p{
+    font-family: 'Raleway', sans-serif;
+    text-indent: 30px;
+}
+
+.card-links {
+    color: black;
+    text-decoration: none;
+}
+
+.card-links:hover {
+    color: black;
+}
+
+.card-links:visited {
+    color: black;
+}
+
+/* All - footers */
+.footer{
+    text-align: center;
+    background-color:#E3C4C9;
+    border-top: #E6A3AD solid;
+    color: #63273E;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* ----------  About Me Document  ---------- */
+/* About Me image */
+.float-left{
+    float: left;
+    width: 30%;
+}
+
+/* ----------   Contact me page  ---------- */
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  /* submit button  */
+  .button-bg{
+      background-color:  #63273E;
+      border:  #63273E;
+  }
+
+/* Fonts Used */
+/*Headings   -  font-family: 'Dosis', sans-serif;
+  Paragraphs -  font-family: 'Raleway', sans-serif;
+ */
+
