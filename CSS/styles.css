@@ -94,15 +94,21 @@ a.downloadRes:hover {
     color: #63273E;
 }
   
-  .fa:hover {
-      opacity: 0.7;
-  }
+.fa:hover {
+  opacity: 0.7;
+}
 
-  /* submit button  */
-  .button-bg{
-      background-color:  #63273E;
-      border:  #63273E;
-  }
+.fa-envelope, .fa-phone{
+    width: auto;
+    font-size: 25px;
+}
+
+
+/* submit button  */
+.button-bg{
+  background-color:  #63273E;
+  border:  #63273E;
+}
 
 /* Fonts Used */
 /*Headings   -  font-family: 'Dosis', sans-serif;

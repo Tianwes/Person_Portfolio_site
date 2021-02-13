@@ -22,7 +22,7 @@ As screen sizes differ across devices, I needed a layout that would remain easil
 
 ----------
 
-# This app uses - HTML, CSS, BOOTSRAP
+# This app uses - HTML, CSS, BOOTSRAP, Font-Awesome Icons
 
 ----------
 
@@ -33,17 +33,19 @@ As screen sizes differ across devices, I needed a layout that would remain easil
 
 # Links
 
-## Deployed Application
-
+## Deployed Application Link
+https://tianwes.github.io/Personal_Portfolio_site/
 
 ## Project's GitHub Repo Address
-
+https://github.com/Tianwes/Personal_Portfolio_site
 
 ----------
-# Creator & Contact Info
-Tiifany Weaver
+# Creator's Contact Info
+Tiifany Weaver :)
 - linkedIn - www.linkedin.com/in/tiffany-weaver-developer
 - email - tianweavers@gmail.com
 - (478)954-6970
+
+
 
 
