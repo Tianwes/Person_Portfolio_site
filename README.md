@@ -44,7 +44,7 @@ https://github.com/Tianwes/Personal_Portfolio_site
 ----------
 # Creator's Contact Info
 Tiifany Weaver :)
-- linkedIn - www.linkedin.com/in/tiffany-weaver-developer
+- linkedIn - https://www.linkedin.com/in/tiffany-weaver-dev/
 - email - tianweavers@gmail.com
 - (478)954-6970
 
