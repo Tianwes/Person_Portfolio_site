@@ -55,7 +55,17 @@ p{
 
 .card:hover {
     box-shadow: 11px 11px 9px darkgrey;
+    
  }
+
+a.gitLink {
+    color: darksalmon;
+    text-decoration: overline;
+}
+
+a.gitLink:hover {
+    color: #63273E;
+}
 
 /* All - footers */
 .footer{
