@@ -21,6 +21,7 @@ h2 {
     float: right;
     font-family: 'Dosis', sans-serif;
     color: #63273E;
+    padding: 3px 15px 0px 0px;
 }
 
 h2:hover {
@@ -40,6 +41,12 @@ p{
 }
 
 /* ----------  Portfolio cards  ---------- */
+.projectTitle {
+    font-family: 'Dosis';
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
 .card-links {
     color: black;
     text-decoration: none;
@@ -55,8 +62,7 @@ p{
 
 .card:hover {
     box-shadow: 11px 11px 9px darkgrey;
-    
- }
+}
 
 a.gitLink {
     color: darksalmon;
@@ -65,6 +71,11 @@ a.gitLink {
 
 a.gitLink:hover {
     color: #63273E;
+}
+
+.DnDimage {
+    height: 103%;
+    margin-bottom: -22px;
 }
 
 /* All - footers */
@@ -119,6 +130,9 @@ a.downloadRes:hover {
   background-color:  #63273E;
   border:  #63273E;
 }
+
+
+
 
 /* Fonts Used */
 /*Headings   -  font-family: 'Dosis', sans-serif;
