@@ -140,7 +140,7 @@ a.downloadRes:hover {
 
 .fa:hover {
   opacity: 0.7;
-  color: #b598a3;
+  color: #e09e86;
 }
 
 .fa-envelope,
@@ -155,10 +155,10 @@ a.downloadRes:hover {
   border: #63273e;
 }
 
-.button-bg:hover {
+.btn-primary:hover {
   color: #fff;
-  background-color: #b598a3;
-  border-color: #a75059;
+  background-color: #e09e86;
+  border-color: #e09e86;
 }
 
 /* Fonts Used */
