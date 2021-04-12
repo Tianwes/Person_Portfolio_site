@@ -1,141 +1,167 @@
 /* ---------- All ---------- */
-body{
-    background-image:url("https://images.pexels.com/photos/2395249/pexels-photo-2395249.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:fixed;
+body {
+  background-image: url("https://images.pexels.com/photos/2395249/pexels-photo-2395249.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* All - Nav bar and H1's */
-header, h1{
-    font-family: 'Dosis', sans-serif; 
+header,
+h1 {
+  font-family: "Dosis", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+/* taret my name to hover pink */
+/* .navbar-brand:hover {
+    color: #e09e86;
+} */
+
+.nav-item {
+  font-size: 1.5rem;
+  padding-right: 20px;
+}
+
+.navbar-nav {
+  padding-right: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #e09e86;
+  text-shadow: 2px 2px 2px gainsboro;
 }
 
 #aboutMe-h1 {
-    display: inline;
+  display: inline;
 }
 
 h2 {
-    display: inline;
-    position: relative;
-    float: right;
-    font-family: 'Dosis', sans-serif;
-    color: #63273E;
-    padding: 3px 15px 0px 0px;
+  display: inline;
+  position: relative;
+  float: right;
+  font-family: "Dosis", sans-serif;
+  color: #63273e;
+  padding: 3px 15px 0px 0px;
 }
 
 h2:hover {
-    color: burlywood;
+  color: #e09e86;
 }
 
 /* All -Containers */
-.container{
-    background-color: #fff;
-    width: fit-content;
+.container {
+  background-color: #fff;
+  width: fit-content;
 }
 
 /* All -Paragraphs */
-p{
-    font-family: 'Raleway', sans-serif;
-    text-indent: 30px;
+p {
+  font-family: "Raleway", sans-serif;
+  text-indent: 30px;
 }
 
 /* ----------  Portfolio cards  ---------- */
 .projectTitle {
-    font-family: 'Dosis';
-    font-weight: 600;
-    letter-spacing: 1px;
+  font-family: "Dosis";
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .card-links {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .card-links:hover {
-    color: black;
+  color: black;
 }
 
 .card-links:visited {
-    color: black;
+  color: black;
 }
 
 .card:hover {
-    box-shadow: 11px 11px 9px darkgrey;
+  box-shadow: 11px 11px 9px darkgrey;
 }
 
 a.gitLink {
-    color: darksalmon;
-    text-decoration: overline;
+  color: darksalmon;
+  text-decoration: overline;
 }
 
 a.gitLink:hover {
-    color: #63273E;
+  color: #63273e;
 }
 
 .DnDimage {
-    height: 103%;
-    margin-bottom: -22px;
+  height: 103%;
+  margin-bottom: -22px;
 }
 
 /* All - footers */
-.footer{
-    text-align: center;
-    background-color:#E3C4C9;
-    border-top: #E6A3AD solid;
-    color: #63273E;
-    font-family: 'Dosis', sans-serif;
+.footer {
+  text-align: center;
+  background-color: #e3c4c9;
+  border-top: #e6a3ad solid;
+  color: #63273e;
+  font-family: "Dosis", sans-serif;
 }
 
 /* ----------  About Me Document  ---------- */
 /* About Me image */
-.float-left{
-    float: left;
-    width: 30%;
+.float-left {
+  float: left;
+  width: 30%;
 }
 
 a.downloadRes {
-    font-family: 'Dosis', sans-serif;
-    text-decoration: none;
-    color: #63273E;
-    font-size: 25px;
+  font-family: "Dosis", sans-serif;
+  text-decoration: none;
+  color: #63273e;
+  font-size: 25px;
 }
 
 a.downloadRes:hover {
-    color:burlywood;
+  color: #e09e86;
 }
 
 /* ----------   Contact me page  ---------- */
 .fa {
-    font-size: 35px;
-    width: 25px;
-    text-align: center;
-    text-decoration: none;
-    margin: 3px 10px 0px 8px;
-    color: #63273E;
+  font-size: 35px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 10px 0px 8px;
+  color: #63273e;
 }
-  
+
 .fa:hover {
   opacity: 0.7;
+  color: #b598a3;
 }
 
-.fa-envelope, .fa-phone{
-    width: auto;
-    font-size: 25px;
+.fa-envelope,
+.fa-phone {
+  width: auto;
+  font-size: 25px;
 }
-
 
 /* submit button  */
-.button-bg{
-  background-color:  #63273E;
-  border:  #63273E;
+.button-bg {
+  background-color: #63273e;
+  border: #63273e;
 }
 
-
-
+.button-bg:hover {
+  color: #fff;
+  background-color: #b598a3;
+  border-color: #a75059;
+}
 
 /* Fonts Used */
 /*Headings   -  font-family: 'Dosis', sans-serif;
   Paragraphs -  font-family: 'Raleway', sans-serif;
  */
-
