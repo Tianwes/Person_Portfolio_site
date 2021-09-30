@@ -36,10 +36,10 @@ This is a responsive, personal portfolio with projects, bio, and contact informa
 # Links
 
 ## Deployed Application Link
-https://tianwes.github.io/Personal_Portfolio_site/
+https://tianwes.github.io/Tiffany-Weaver-Portfolio/
 
 ## Project's GitHub Repo Address
-https://github.com/Tianwes/Personal_Portfolio_site
+https://github.com/Tianwes/Tiffany-Weaver-Portfolio
 
 ----------
 # Creator's Contact Info
